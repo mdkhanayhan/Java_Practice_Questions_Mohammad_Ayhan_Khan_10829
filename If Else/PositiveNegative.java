@@ -1,0 +1,39 @@
+import java.util.Scanner;
+public class PositiveNegative {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter an integer: ");
+        int a = sc.nextInt();
+        if (a > 0) {
+            System.out.println("a is positive");
+        } else if(a < 0) {
+            System.out.println("a is negative");
+        } else {
+            System.out.println("a is zero");
+        }
+    }
+    public static void main2(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter an integer: ");
+        int a = sc.nextInt();
+        if (a > 0) {
+            System.out.println("a is positive");
+        } else if(a < 0) {
+            System.out.println("a is negative");
+        } else {
+            System.out.println("a is zero");
+        }
+    }
+    public static void main3(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter an integer: ");
+        int a = sc.nextInt();
+        if (a > 0) {
+            System.out.println("a is positive");
+        } else if(a < 0) {
+            System.out.println("a is negative");
+        } else {
+            System.out.println("a is zero");
+        }
+    }
+}
